@@ -1,0 +1,131 @@
+@media (max-width:600px) {
+    .productos-grid{
+        display: flex;
+        flex-direction:column-reverse;
+    }
+
+    .lista-de-productos{
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .titulo-lista-de-productos{
+        margin:auto
+    }
+    .listita-de-productos{
+        margin: auto;
+    }
+}
+
+
+
+@media (max-width:600px) {
+    .turnos-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+
+        .turnos {
+            margin-left: 2px;
+            border-bottom: solid;
+            border-right: none;
+
+        }
+
+        .numeros-de-contacto {
+            margin-left: 3px;
+            margin-right: 3px;
+
+        }
+
+        .contacto-nombres {
+            text-decoration: solid;
+            padding: 5px;
+
+
+
+        }
+
+
+    }
+}
+
+@media (max-width:600px) {
+    .conocenos-media {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+
+        .clase-nosotros{
+            display: flex;
+            flex-direction: column;
+        max-width: 100%;
+        background-color: chartreuse;
+
+        }
+        .nuestro-personal{
+            display: flex;
+            flex-direction: column;
+            max-width: 100%;
+
+            .titulo-personal{
+               justify-content: center;
+               align-items: center;
+
+            }
+            
+            .foto-del-personal{
+                width: 300px;
+                height: 300px;
+                margin-left: 80px;
+                margin-right: 20px;
+
+                
+            }
+
+
+        }
+        .algunos-trabajos{
+            background-color: coral;
+        }
+
+
+      
+
+    }
+
+    @media (max-width:500px) {
+        .carouselExample {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+        }
+
+
+
+    }
+
+
+
+}
+@media (max-width:576px) {
+    .inicio-media{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .imagenes-2-y-3{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+    }
+    .col-md-5{
+        margin-left:auto ;
+    }
+
+}

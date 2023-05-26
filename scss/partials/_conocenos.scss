@@ -1,0 +1,101 @@
+.conocenos-media{
+    display: flex;
+    flex-direction: column;
+
+    .titulo-conocenos {
+        text-decoration: underline;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .clase-nosotros {
+        display: flex;
+    
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+
+        .foto-peluqueria {
+            width: 35rem;
+            height: 30rem;
+            margin: 30px;
+        }
+        .nosotros {
+            line-height: 30px;
+            font-family: 'Alkatra', cursive;
+        
+        }
+
+    
+    
+    }
+    .nuestro-personal{
+        display: flex;
+        flex-direction: column;
+   
+        background-color: chocolate;
+
+        .nosotros-p{
+            font-family: 'Alkatra';
+         
+        }
+
+        .foto-del-personal{
+            border-radius: 50%;
+            
+        }
+        .titulo-personal{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: xx-large;
+            font-weight: bolder;
+        }
+
+
+    }
+    .algunos-trabajos{
+        background-image:linear-gradient(to bottom,rgb(226, 153, 43),rgb(111, 241, 230));
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: xx-large;
+        font-weight: bolder;
+        
+    }
+    
+    
+    }
+
+    .row{
+        background-image:linear-gradient(to bottom, rgb(111, 241, 230),rgb(226, 153, 43));
+
+        .imagen-peinados {
+            width: 400px;
+            height: 300px;
+            margin: 20px;
+        }
+       
+    }
+
+    .nosotros-conocenos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+    }
+
+    
+
+
+
+
+
+
+
+
+

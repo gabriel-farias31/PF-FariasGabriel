@@ -1,0 +1,8 @@
+.cajita-animada{
+transition: 2s;
+
+ &:hover{
+    transform: rotateZ('360deg');
+}
+}
+
